@@ -1,8 +1,8 @@
 ********Instructions to run the repo LAN server**********
 
-Compile and execute s2.cpp as the server. Supply a port number in the argument. eg: ./server 9000
+Compile and execute server.cpp as the server. Supply a port number in the argument. eg: ./server 9000
 
-Compile and execute c1.cpp as the client. Supply an ip and a port number in the argument. eg: ./client 127.0.0.1 9000
+Compile and execute client.cpp as the client. Supply an ip and a port number in the argument. eg: ./client 127.0.0.1 9000
 
 Notes and limitations:
 
