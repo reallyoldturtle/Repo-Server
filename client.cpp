@@ -194,6 +194,12 @@ void printmirrors(char msg[],char filename[])
  	// }	
 }
 
+int checkAddr(sockaddr_in serverAddress) {
+	if (serverAddress==NULL) {
+		std::cout<<"Connection needs to be terminated due to null server Address";
+	}
+}
+
 int main(int argc, char *argv[])
 {
 
