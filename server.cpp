@@ -46,6 +46,13 @@ void invalidinput(int client)
    send(client,s,strlen(s),0);
 }
 
+void checkinput(int client)
+{
+  if (client<0) {
+    std::cout<<"Invalid Client"<<std::endl;
+  }
+}
+
 int main(int argc, char *argv[])
 {
    int input_fd,count=0,count1=0;
